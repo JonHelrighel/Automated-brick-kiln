@@ -1,0 +1,16 @@
+Criar padronização de nomes, como variáveis, funções, estruturas e objetos na programação:
+
+
+➝Título letras maiúsculas
+
+➝declaração de variáveis letras maiúsculas
+
+➝para os "cases" use letras maiúsculas
+
+➝dentro dos "cases" use a primeira letra maiúscula e o resto minúsculo
+Ex - João
+
+➝no void loop - Dentro dele use:
+switch (Use letra inicial com letras maiúsuculas e underline: Ex: Estado_Atual)
+
+➝No if e else use dentro deles letras maiúsculas: Ex if(CASA)

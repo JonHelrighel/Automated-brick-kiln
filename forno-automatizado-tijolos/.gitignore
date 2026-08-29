@@ -1,0 +1,26 @@
+# ---- Artefatos de build do ESP-IDF / firmware ESP32 ----
+build/
+managed_components/
+dependencies.lock
+sdkconfig.old
+*.elf
+*.map
+*.bin
+
+# ---- Autosaves e temporários do MATLAB ----
+*.asv
+
+# ---- SolidWorks temporários ----
+~$*.SLDPRT
+~$*.SLDASM
+~$*.SLDDRW
+*.SLDPRT.bak
+
+# ---- Sistema operacional ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/

@@ -1,0 +1,13 @@
+# Arquivos binários de CAD/impressão 3D — recomenda-se versionar via Git LFS
+# (rode "git lfs install" e "git lfs track" antes do primeiro commit, ou
+# apague as linhas abaixo se preferir não usar LFS)
+*.SLDPRT filter=lfs diff=lfs merge=lfs -text
+*.SLDASM filter=lfs diff=lfs merge=lfs -text
+*.SLDDRW filter=lfs diff=lfs merge=lfs -text
+*.STL    filter=lfs diff=lfs merge=lfs -text
+*.stl    filter=lfs diff=lfs merge=lfs -text
+*.mat    filter=lfs diff=lfs merge=lfs -text
+*.pdf    filter=lfs diff=lfs merge=lfs -text
+*.docx   filter=lfs diff=lfs merge=lfs -text
+*.pptx   filter=lfs diff=lfs merge=lfs -text
+*.xlsx   filter=lfs diff=lfs merge=lfs -text
