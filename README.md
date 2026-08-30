@@ -65,23 +65,6 @@ A Olaria Modesto fabrica tijolos maciços e furados em fornos a carvão com cont
 
 ## ⚠️ Nota sobre arquivos grandes
 
-Este repositório contém arquivos de CAD (`.SLDPRT`, `.SLDASM`, `.STL`), imagens e relatórios que juntos somam algumas centenas de MB. Nenhum arquivo individual ultrapassa o limite de 100 MB do GitHub, mas para repositórios que crescerão mais (novos ensaios, mais fotos, etc.) recomenda-se usar **Git LFS** para os arquivos de CAD/binários. Veja instruções abaixo.
+Este repositório contém arquivos de CAD (`.SLDPRT`, `.SLDASM`, `.STL`), imagens e relatórios que juntos somam algumas centenas de MB. Nenhum arquivo individual ultrapassa o limite de 100 MB do GitHub, mas para repositórios que crescerão mais (novos ensaios, mais fotos, etc.) utilizou-se **Git LFS** para os arquivos de CAD/binários. 
 
 Artefatos de build do firmware (pastas `build/`, `esp-idf/`, `CMakeFiles/`, etc. gerados pelo ESP-IDF) **foram removidos** desta organização, pois são gerados automaticamente a partir do código-fonte e não devem ser versionados — já estão listados no `.gitignore`.
-
-## 🚀 Como subir este projeto no seu GitHub (@JonHelrighel)
-
-Veja o passo a passo completo mais abaixo nesta conversa, ou resumidamente:
-
-```bash
-cd forno-automatizado-tijolos
-git init
-git lfs install
-git lfs track "*.SLDPRT" "*.SLDASM" "*.SLDDRW" "*.STL" "*.stl" "*.pdf" "*.mat"
-git add .gitattributes
-git add .
-git commit -m "Organiza e documenta AE-I a AE-IV do projeto do forno automatizado"
-git branch -M main
-git remote add origin https://github.com/JonHelrighel/forno-automatizado-tijolos.git
-git push -u origin main
-```
