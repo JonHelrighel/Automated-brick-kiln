@@ -4,7 +4,7 @@ Repositório com o desenvolvimento completo do projeto de extensão do curso de 
 
 O projeto é dividido em Atividades de Extensão (AE) semestrais — cada uma corresponde a uma fase do desenvolvimento do produto, seguindo a metodologia do livro *Projeto Integrado de Produtos* (BACK et al.): projeto informacional → conceitual → preliminar → detalhado → automação → retrofit.
 
-> Este repositório é uma organização/documentação pessoal do projeto para o perfil de **[@JonHelrighel](https://github.com/JonHelrighel)**. O projeto é resultado de trabalho em grupo (autores abaixo) e também existe uma versão mantida por um dos colegas em [EduardoPaz01/AE-Tijolos](https://github.com/EduardoPaz01/AE-Tijolos).
+> Este repositório é uma organização/documentação pessoal do meu projeto --> **[@JonHelrighel](https://github.com/JonHelrighel)**. O projeto é resultado de trabalho em grupo (autores abaixo) e também existe uma versão mantida por um dos colegas em [EduardoPaz01/AE-Tijolos](https://github.com/EduardoPaz01/AE-Tijolos).
 
 ## 👥 Equipe
 
